@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+}
+
+.nav-items > li {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.nav-logo {
+    width: 60px;
+    margin: 10px;
+}
+
+.main-content {
+    margin: 16px;
+}
+
+.footer {
+    background: rgba(red, green, blue, alpha);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+
+}
